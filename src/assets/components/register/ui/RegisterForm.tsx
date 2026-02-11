@@ -12,7 +12,7 @@
 
 export const RegisterForm = () => {
   return (
-    <form className="w-full max-w-md bg-white p-8 rounded-lg shadow-md flex flex-col gap-4">
+    <form className="w-full max-w-md bg-[#F4F1DE] p-9 rounded-lg shadow-md flex flex-col gap-4">
         <h2 className="text-2xl font-bold text-center text-blue-600 mb-4">Тіркелу</h2>
         <input type="text" placeholder="Аты" className="p-3 border rounded" />
         <input type="text" placeholder="Фамилия" className="p-3 border rounded" />
@@ -30,6 +30,10 @@ export const RegisterForm = () => {
             <button type="button" className="flex-1 border p-3 rounded hover:bg-gray-200 transition">Артқа</button>
             <button type="submit" className="flex-1 bg-blue-600 text-white p-3 rounded hover:bg-blue-700 transition">Жалғастыру</button>
         </div>
+
+        <div className="flex items-center justify-center h-40">
+            <p>Center</p>
+        </div>    
 
         <div className="flex items-center gap-2 mt-3 mb-2">
             <hr className="flex-1 border-gray-300" />
