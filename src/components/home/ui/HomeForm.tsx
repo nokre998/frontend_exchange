@@ -9,6 +9,11 @@ export const HomePageForm = () => {
   const onAllClick = () =>{
     navigate("/all")
   }
+
+  const onContactClick = () =>{
+    navigate("/register")
+  }
+
   return (
     <>
       {/* Header */}
@@ -23,7 +28,9 @@ export const HomePageForm = () => {
               Все события
               <ChevronDown className="w-4 h-4" />
             </button>
-            <a href="#" className="text-base">Контакты</a>
+            <div 
+              onClick={onContactClick}
+              className="text-base">Контакты</div>
             <div className="relative">
               <input
                 type="text"
@@ -85,7 +92,7 @@ export const HomePageForm = () => {
             {/* Right Image */}
             <div className="relative">
               <img 
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbzf_WZYRJ55EOW3v_7lgJ5NtT5PT2w3n6UA&s" 
+                src="https://avatars.mds.yandex.net/i?id=68438335bc71f8590c6efdb98c20c183_l-5221406-images-thumbs&n=13" 
                 alt="Directional signs showing different cultures"
                 className="w-full h-auto rounded-lg shadow-lg"
               />

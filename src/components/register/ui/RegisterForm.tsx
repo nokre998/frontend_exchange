@@ -187,7 +187,7 @@ export function RegisterForm({ onBack }: RegistrationFormProps) {
       </div>
 
       {/* Event Preferences */}
-      <div className="bg-white rounded-2xl p-6 shadow-sm flex flex-col gap-4">
+      {/* <div className="bg-white rounded-2xl p-6 shadow-sm flex flex-col gap-4">
         <h3 className="text-2xl mb-4 font-serif text-[#2D5016]">Настройки событий</h3>
         <select
           name="dietary"
@@ -211,7 +211,7 @@ export function RegisterForm({ onBack }: RegistrationFormProps) {
           placeholder="Kommentarer eller særlige ønsker"
           className="p-3 rounded-2xl border-2 border-[#E0D7C6] focus:border-[#2D5016] outline-none resize-none"
         />
-      </div>
+      </div> */}
 
       {/* Submit */}
       <button
